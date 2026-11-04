@@ -164,6 +164,7 @@ def login_page(error: str = "", email: str = "") -> str:
   {logo("login-logo", 400)}
   <form class="login-form" method="post" action="/login" autocomplete="on">
     <h1>Админ самбарт нэвтрэх</h1>
+    <p class="version">v0.2</p>
     {err}
     <label for="email">Имэйл</label>
     <input id="email" type="email" name="email" value="{e(email)}" required maxlength="254"

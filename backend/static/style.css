@@ -78,7 +78,8 @@ img.login-logo { width: 400px; margin: 0 auto 8px; }
   border-radius: var(--radius);
   padding: 28px;
 }
-.login-form h1 { font-size: 20px; margin-bottom: 20px; }
+.login-form h1 { font-size: 20px; margin-bottom: 4px; }
+.login-form .version { margin: 0 0 20px; font-size: 12px; font-weight: 500; }
 .login-form p { margin: 0 0 12px; }
 label {
   display: block;
